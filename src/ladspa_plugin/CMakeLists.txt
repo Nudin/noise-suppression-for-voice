@@ -7,7 +7,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR})
 
-set(PROJECT_ROOT ../../../)
+set(PROJECT_ROOT ../../)
 
 set(LADSPA_INTERFACE_SRC
         ladspa.h
