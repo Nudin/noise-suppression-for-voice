@@ -21,9 +21,7 @@ set(RN_NOISE_SRC
         src/pitch.c
         src/rnn.c
         src/rnn_data.c
-        src/rnnoise_demo.c)
-
-add_executable(rnnoise_demo ${RN_NOISE_SRC})
+        )
 
 add_library(RnNoise STATIC ${RN_NOISE_SRC})
 

@@ -38,5 +38,4 @@ function(build bit)
             LIBRARY_OUTPUT_DIRECTORY "${PROJECT_ROOT}/bin/x${bit}/ladspa")
 endfunction()
 
-build(32)
 build(64)
