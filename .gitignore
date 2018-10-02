@@ -2,6 +2,10 @@
 
 cmake-build-debug/
 cmake-build-release/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
 
 bin/
 
@@ -11,4 +15,5 @@ src/vst_plugin/vst2.x/*.cpp
 src/vst_plugin/pluginterfaces/vst2.x/*.h
 
 *.dll
+*.a
 
